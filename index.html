@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IG DEV | Engenheiro de Software Full Stack</title>
+  <meta name="description" content="IG DEV — Engenheiro de Software Full Stack. Arquitetura, performance e sistemas distribuídos. Volta Redonda, RJ.">
+  <meta name="theme-color" content="#111418">
+  <meta property="og:title" content="IG DEV | Engenheiro de Software Full Stack">
+  <meta property="og:description" content="Sistemas de ponta a ponta — do desenho do banco ao comportamento em produção.">
+  <meta property="og:image" content="assets/images/governo-presente.jpg">
+  <link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css?v=4">
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="nav">
+    <nav aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <p class="hero__mark" aria-hidden="true">
+        <span class="hero__line"><span>IG</span> <span>DEV</span></span>
+      </p>
+      <h1 class="hero__title">Engenheiro de Software Full Stack <span>arquitetura, performance &amp; sistemas distribuídos</span></h1>
+      <a class="scroll-cue" href="#sobre" aria-label="Rolar para o conteúdo">
+        <span>Rolar</span>
+        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" aria-hidden="true"><path d="M1 1l6 6 6-6" stroke="currentColor" stroke-width="1.2"/></svg>
+      </a>
+    </section>
+
+    <!-- SOBRE / O QUE EU FAÇO -->
+    <section id="sobre" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Sobre</p>
+            <h2 class="split">O que eu construo</h2>
+          </div>
+          <p class="section__lead reveal">5 anos projetando sistemas de ponta a ponta — do desenho do banco de dados ao comportamento do runtime em produção. Entendendo o que o framework faz por baixo, não só como usar.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <h3>APIs &amp; microsserviços</h3>
+            <p>Laravel, Nest.js e Spring Boot com domínio bem modelado, autenticação e controle de acesso granular.</p>
+            <a class="link-mono" href="#contato">Falar comigo <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card reveal">
+            <h3>Concorrência &amp; performance</h3>
+            <p>Swoole e HyperF: coroutines e I/O assíncrono não-bloqueante sobre PHP, de olho em latência e throughput.</p>
+            <a class="link-mono" href="#contato">Falar comigo <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card reveal">
+            <h3>Mensageria</h3>
+            <p>RabbitMQ e webhooks para desacoplar serviços críticos e manter consistência entre sistemas.</p>
+            <a class="link-mono" href="#contato">Falar comigo <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card reveal">
+            <h3>Dados &amp; infraestrutura</h3>
+            <p>PostgreSQL, MySQL e MongoDB modelados para integridade e performance. Docker, Linux e AWS.</p>
+            <a class="link-mono" href="#contato">Falar comigo <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card reveal">
+            <h3>IA &amp; visão computacional</h3>
+            <p>Modelos de classificação aplicados a problemas reais: triagem automática, laudos e lavouras.</p>
+            <a class="link-mono" href="#destaque">Ver caso <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section projects" aria-roledescription="carrossel" aria-label="Projetos">
+      <div class="wrap wrap--wide projects__grid">
+        <div class="projects__info" aria-live="polite">
+          <p class="eyebrow eyebrow--dot" data-p="tag"></p>
+          <h2 class="projects__title" data-p="name"></h2>
+          <p class="projects__sub" data-p="sub"></p>
+          <dl class="projects__dl">
+            <dt>Desafio</dt>
+            <dd data-p="challenge"></dd>
+            <dt>Entrega</dt>
+            <dd data-p="delivery"></dd>
+          </dl>
+          <p class="projects__stack" data-p="stack"></p>
+          <a class="link-mono link-mono--line" data-p="url" href="#" target="_blank" rel="noopener">Ver projeto <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="projects__stage">
+          <div class="deck" data-p="deck"></div>
+          <div class="projects__controls">
+            <button class="arrow" data-dir="-1" aria-label="Projeto anterior">←</button>
+            <button class="arrow" data-dir="1" aria-label="Próximo projeto">→</button>
+            <div class="projects__tabs" role="tablist" aria-label="Escolher projeto"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-label="Clientes atendidos">
+        <div class="marquee__track">
+          <span>Walmart</span><span>Mitsubishi</span><span>Esquina Grill</span><span>Terra Gaúcha</span><span>Bullvinos</span><span>Dom Hélio</span><span>Mega Contractors</span><span>IBP Outdoor Living</span><span>IBP Construction</span><span>Panebras</span><span>Prefeitura de Barra Mansa</span><span>Quick Fibra</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAJETÓRIA -->
+    <section id="trajetoria" class="section">
+      <div class="wrap">
+        <p class="eyebrow">Trajetória</p>
+        <h2 class="split">Do primeiro deploy à liderança técnica</h2>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__date">Jun 2025 — hoje</span>
+            <h3>Prefeitura de Barra Mansa</h3>
+            <p class="step__role">Supervisor de Transformação Digital</p>
+            <p>Lidera a digitalização dos processos da prefeitura e a arquitetura do app Governo Presente. IA que classifica e prioriza solicitações da Manutenção Urbana.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__date">Jul 2024 — hoje</span>
+            <h3>Adapt Crew <small>· EUA, remoto</small></h3>
+            <p class="step__role">Desenvolvedor Full Stack</p>
+            <p>Microsserviços orientados a eventos via webhook, integrações de CMS, ERP e CRM para clientes como Walmart e Mitsubishi, deploys em AWS.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__date">Ago 2023 — Jul 2024</span>
+            <h3>Quick Fibra</h3>
+            <p class="step__role">Desenvolvedor Full Stack</p>
+            <p>Plataforma de clientes, contratos e pagamentos com trilha de auditoria. Arquitetura do Quick CRM em Laravel, Nest.js e PostgreSQL.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__date">Jul 2022 — hoje</span>
+            <h3>Freelance</h3>
+            <p class="step__role">Desenvolvedor Full Stack</p>
+            <p>Sistemas para clínicas veterinárias e varejo, plataforma jurídica, imobiliária com pagamentos e visão computacional para lavouras.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__date">Out 2022 — Ago 2023</span>
+            <h3>Singular</h3>
+            <p class="step__role">Desenvolvedor Web Júnior</p>
+            <p>Plataformas com múltiplos níveis de acesso e fluxos de autenticação em PHP, JavaScript, MySQL e WordPress.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- DESTAQUE -->
+    <section id="destaque" class="section section--tight">
+      <div class="wrap highlight reveal">
+        <div>
+          <p class="eyebrow eyebrow--accent">Caso em destaque · Visão computacional</p>
+          <h2 class="highlight__title">Um drone sobrevoa o cafezal. O sistema diz se é praga ou falta de nutriente.</h2>
+          <p class="highlight__text">Detecção de coloração anômala em tempo real, extração de stills em alta resolução e um modelo de classificação que sugere tratamento com score de confiança — casos incertos vão para revisão humana.</p>
+        </div>
+        <a class="btn btn--accent" href="#contato">Quero algo assim</a>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section">
+      <div class="wrap faq">
+        <div>
+          <p class="eyebrow">Competências</p>
+          <h2 class="split">Com o que eu trabalho</h2>
+          <dl class="facts reveal">
+            <div><dt>Formação</dt><dd>Bacharel em Sistemas de Informação — UniFOA <em>(2022 – 2026)</em></dd></div>
+            <div><dt>Base</dt><dd>Técnico em Eletrônica — Pandiá Calógeras</dd></div>
+            <div><dt>Idiomas</dt><dd>Português nativo · Inglês avançado (C1)</dd></div>
+          </dl>
+        </div>
+
+        <div class="accordion">
+          <details class="acc" open>
+            <summary>Concorrência &amp; performance</summary>
+            <div class="acc__body"><p>Swoole e HyperF — coroutines, I/O assíncrono não-bloqueante, pools de conexão e atenção a latência, throughput e consumo de memória em produção.</p></div>
+          </details>
+          <details class="acc">
+            <summary>Backend</summary>
+            <div class="acc__body"><p>Laravel, Symfony, Nest.js, Spring Boot, Python e C#. APIs REST, autenticação, filas, multi-tenancy e integrações com serviços externos.</p></div>
+          </details>
+          <details class="acc">
+            <summary>Dados</summary>
+            <div class="acc__body"><p>PostgreSQL, MySQL e MongoDB. Modelagem relacional pensada para integridade referencial, índices e consultas que escalam.</p></div>
+          </details>
+          <details class="acc">
+            <summary>Mensageria &amp; infraestrutura</summary>
+            <div class="acc__body"><p>RabbitMQ, webhooks, Docker, AWS, Linux e Git. Pipelines de deploy e serviços desacoplados por eventos.</p></div>
+          </details>
+          <details class="acc">
+            <summary>Frontend &amp; mobile</summary>
+            <div class="acc__body"><p>React Native, JavaScript e interfaces administrativas. Google Tag Manager para analytics e apoio a design de interface no Figma.</p></div>
+          </details>
+          <details class="acc">
+            <summary>Liderança &amp; métodos</summary>
+            <div class="acc__body"><p>Scrum e Kanban, revisão de código, padrões de versionamento e processo de implantação — traduzindo decisões de arquitetura em entregas de negócio.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section id="mensagem" class="section">
+      <div class="wrap form-grid">
+        <div>
+          <p class="eyebrow">Projeto</p>
+          <h2 class="split">Me conta o que você precisa</h2>
+          <p class="section__lead section__lead--left reveal">Preenche o básico e a conversa já começa no WhatsApp com tudo escrito. Resposta em até 24 horas.</p>
+        </div>
+
+        <form class="form reveal" id="contact-form" novalidate>
+          <div class="form__row">
+            <label class="field">
+              <span>Nome</span>
+              <input name="nome" type="text" placeholder="Como você se chama" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Empresa</span>
+              <input name="empresa" type="text" placeholder="Onde você trabalha" autocomplete="organization">
+            </label>
+          </div>
+          <fieldset class="field">
+            <legend>O que você precisa</legend>
+            <div class="chips">
+              <label class="chip"><input type="checkbox" name="tipo" value="Sistema sob medida"><span>Sistema sob medida</span></label>
+              <label class="chip"><input type="checkbox" name="tipo" value="API / microsserviços"><span>API / microsserviços</span></label>
+              <label class="chip"><input type="checkbox" name="tipo" value="Performance"><span>Performance</span></label>
+              <label class="chip"><input type="checkbox" name="tipo" value="Integrações"><span>Integrações</span></label>
+              <label class="chip"><input type="checkbox" name="tipo" value="Vaga / contratação"><span>Vaga / contratação</span></label>
+            </div>
+          </fieldset>
+          <label class="field">
+            <span class="sr-only">Mensagem</span>
+            <textarea name="mensagem" rows="2" placeholder="Se quiser, conta em poucas palavras"></textarea>
+          </label>
+          <p class="form__error" role="alert" hidden>Coloca seu nome pra eu saber com quem estou falando.</p>
+          <button class="btn btn--accent btn--block" type="submit">Enviar pelo WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact">
+      <div class="wrap wrap--wide contact__top">
+        <div>
+          <h2 class="contact__title split">tem um problema difícil? <br>vamos resolver.</h2>
+          <div class="contact__actions">
+            <a class="btn" href="https://wa.me/5524981402661" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+            <a class="btn" href="mailto:igorotero.muniz@gmail.com">Mandar um e-mail</a>
+          </div>
+        </div>
+        <div class="contact__side">
+          <p>Volta Redonda, RJ — atendendo remoto para o Brasil e o exterior.</p>
+          <a class="contact__social" href="https://www.instagram.com/_igaootero/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
+          <span class="contact__handle">@_igaootero</span>
+          <a class="contact__social contact__social--sm" href="https://linkedin.com/in/igorotero-26296622a" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          <span class="contact__handle">+55 (24) 98140-2661 · igorotero.muniz@gmail.com</span>
+        </div>
+      </div>
+      <p class="contact__mark" aria-hidden="true">IG DEV</p>
+      <footer class="footer">
+        <span>IG DEV — Volta Redonda, RJ</span>
+        <span>© <span id="year">2026</span></span>
+      </footer>
+    </section>
+  </main>
+
+  <a class="to-top" href="#inicio" aria-label="Voltar ao topo">
+    <svg width="12" height="16" viewBox="0 0 12 16" fill="none" aria-hidden="true"><path d="M6 15V1M1 6l5-5 5 5" stroke="currentColor" stroke-width="1.2"/></svg>
+    <span>Voltar ao topo</span>
+  </a>
+
+  <script src="assets/js/main.js?v=3" defer></script>
+</body>
+</html>
